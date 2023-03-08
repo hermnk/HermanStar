@@ -1,0 +1,93 @@
+.login-form{
+  background-color: rgba(0,0,0,0.5);
+  width: 500px; 
+  height: 500px;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+body{
+  height: 75vh;
+  
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(16,42,67);
+}
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
+.logo-image{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 100px;
+}
+button{
+  background-color: rgba(0,0,0,0);
+  border: solid white;
+  color: white;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  
+
+}
+.login-grid{
+  display:grid;
+}
+input{
+  border: solid white;
+  border-radius: 5px;
+}
+.paragraph{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  max-width: 250px;
+  height: 100px;
+}
+#content{
+  
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, rgba(72, 155, 200, 1)0%,rgba(16, 42, 67, 1) 94%);
+  border-image-slice: 5;
+
+  padding-bottom: 2px;
+}
+.home-page{
+  display: grid;
+  grid-template-columns: auto;
+  max-width: 200px;
+  max-height: 50px;
+}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+.background-text{
+  color: grey;
+  z-index: -1;
+}
+.on-top{
+  position: absolute;
+}
+.writeable{
+  width: 250px;
+}
+.register-login-button{
+  border-radius: 10px;
+}
+.invalid-buttons{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-row-gap: 1rem;
+}
